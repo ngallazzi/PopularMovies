@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--- Splash screen colors -->
+    <color name="colorPrimarySplash">#3F51B5</color>
+    <color name="colorPrimaryDarkSplash">#303F9F</color>
+    <color name="colorAccentSplash">#FF4081</color>
+    <color name="colorTextSplash">#FFFFFF</color>
+    <!-- Popular movies colors -->
+    <color name="whiteBackground">#FFFFFF</color>
+    <color name="colorPrimaryMovies">#03A9F4</color>
+    <color name="colorPrimaryDarkMovies">#0288D1</color>
+    <color name="colorAccentMovies">#FFC107</color>
+    <color name="colorDetailsHeaderText">#FFFFFF</color>
+    <color name="colorDetailsHeader">#009688</color>
+    <color name="textColorOnDarkBackground">#FFFFFF</color>
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimarySplash</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSplash</item>
+        <item name="colorAccent">@color/colorAccentSplash</item>
+    </style>
+
+    <style name="MoviesTheme" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryMovies</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMovies</item>
+        <item name="colorAccent">@color/colorAccentMovies</item>
+    </style>
+
+    <style name="MaterialSplashButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@color/colorPrimarySplash</item>
+        <item name="android:textColor">@color/colorTextSplash</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="MaterialListItem">
+        <item name="android:paddingLeft">@dimen/list_item_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_horizontal_padding</item>
+        <item name="android:minHeight">@dimen/list_item_min_height</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="MaterialListItemIcon" parent="android:Widget.ImageButton">
+        <item name="android:layout_width">@dimen/list_item_image_width</item>
+        <item name="android:layout_height">@dimen/list_item_image_height</item>
+        <item name="android:padding">@dimen/list_item_image_padding</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="secondaryTitle" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryDarkMovies</item>
+        <item name="android:layout_marginBottom">@dimen/divider_margin</item>
+    </style>
+    <style name="link" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/colorAccentMovies</item>
+        <item name="android:layout_marginTop">@dimen/divider_margin</item>
+        <item name="android:layout_marginBottom">@dimen/divider_margin</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

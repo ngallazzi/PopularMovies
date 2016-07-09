@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/standard_row_height"
+    android:gravity="center_vertical"
+    android:id="@+id/llVideoItem"
+    >
+    <ImageView
+        android:id="@+id/ivPlayVideo"
+        android:src="@drawable/ic_play"
+        style="@style/MaterialListItemIcon" />
+    <TextView
+        android:id="@+id/tvVideoLabel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_ipsum"
+        style="@style/MaterialListItem" />
+</LinearLayout>
