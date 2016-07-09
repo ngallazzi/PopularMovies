@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.nikogalla.myportfolio.MainActivity">
+    tools:context="com.nikogalla.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

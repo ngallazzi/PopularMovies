@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.model;
+package com.nikogalla.popularmovies.model;
 
 import com.google.gson.annotations.SerializedName;
 

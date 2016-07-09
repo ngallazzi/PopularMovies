@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.data;
+package com.nikogalla.popularmovies.data;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

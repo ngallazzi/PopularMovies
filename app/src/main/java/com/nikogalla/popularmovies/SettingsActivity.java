@@ -1,16 +1,11 @@
-package com.nikogalla.myportfolio.popularmovies;
+package com.nikogalla.popularmovies;
 
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
-import android.util.Log;
 
 
 
-import com.nikogalla.myportfolio.R;
 
 
 /**

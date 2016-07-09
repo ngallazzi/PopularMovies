@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.nikogalla.myportfolio.popularmovies.discover.DiscoverMoviesActivity">
+    tools:context="com.nikogalla.popularmovies.discover.DiscoverMoviesActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBar"
@@ -20,11 +20,11 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
         <fragment
             android:id="@+id/fragmentDiscoverMovies"
-            android:name="com.nikogalla.myportfolio.popularmovies.discover.DiscoverMoviesFragment"
+            android:name="com.nikogalla.popularmovies.discover.DiscoverMoviesFragment"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:context="com.nikogalla.myportfolio.popularmovies.discover.DiscoverMoviesFragment"
+            tools:context="com.nikogalla.popularmovies.discover.DiscoverMoviesFragment"
             tools:layout="@layout/fragment_discover_movies">
         </fragment>
         <FrameLayout

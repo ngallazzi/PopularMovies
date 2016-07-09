@@ -1,8 +1,6 @@
-package com.nikogalla.myportfolio.popularmovies.discover;
+package com.nikogalla.popularmovies.discover;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.AsyncTask;
@@ -18,18 +16,15 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import com.nikogalla.myportfolio.R;
-import com.nikogalla.myportfolio.popularmovies.data.MoviesContract;
-import com.nikogalla.myportfolio.popularmovies.model.Movie;
-import com.nikogalla.myportfolio.popularmovies.service.ApiResponses;
-import com.nikogalla.myportfolio.popularmovies.service.TheMovieDbApiService;
+
+import com.nikogalla.popularmovies.R;
+import com.nikogalla.popularmovies.data.MoviesContract;
+import com.nikogalla.popularmovies.model.Movie;
+import com.nikogalla.popularmovies.service.ApiResponses;
+import com.nikogalla.popularmovies.service.TheMovieDbApiService;
 
 import org.w3c.dom.Text;
 

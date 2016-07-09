@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.data;
+package com.nikogalla.popularmovies.data;
 
 import android.content.ComponentName;
 import android.content.ContentUris;
@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.test.AndroidTestCase;
 
-import com.nikogalla.myportfolio.popularmovies.data.MoviesContract.FavoriteMovieEntry;
+import com.nikogalla.popularmovies.data.MoviesContract.FavoriteMovieEntry;
 
 /**
  * Created by Nicola on 2016-04-09.

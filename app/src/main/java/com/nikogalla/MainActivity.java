@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio;
+package com.nikogalla;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.nikogalla.myportfolio.popularmovies.discover.DiscoverMoviesActivity;
+import com.nikogalla.popularmovies.R;
+import com.nikogalla.popularmovies.discover.DiscoverMoviesActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button btPopularMovies,btSecondApp,btThirdApp,btFourthApp,btFifthApp,btMyOwnApp;

@@ -1,11 +1,11 @@
-package com.nikogalla.myportfolio.popularmovies.data;
+package com.nikogalla.popularmovies.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.text.format.Time;
 
-import com.nikogalla.myportfolio.popularmovies.data.MoviesContract.FavoriteMovieEntry;
+import com.nikogalla.popularmovies.data.MoviesContract.FavoriteMovieEntry;
 
 /**
  * Created by Nicola on 2016-04-08.

@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.util;
+package com.nikogalla.popularmovies.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -15,7 +15,7 @@
  *
  * Note: This file copied from the Android CTS Tests
  */
-package com.nikogalla.myportfolio.utils;
+package com.nikogalla.utils;
 
 import junit.framework.Assert;
 

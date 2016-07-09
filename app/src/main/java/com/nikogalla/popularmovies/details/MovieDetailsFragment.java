@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.details;
+package com.nikogalla.popularmovies.details;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -24,12 +24,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.nikogalla.myportfolio.R;
-import com.nikogalla.myportfolio.popularmovies.data.MoviesContract;
-import com.nikogalla.myportfolio.popularmovies.data.MoviesProvider;
-import com.nikogalla.myportfolio.popularmovies.model.Movie;
-import com.nikogalla.myportfolio.popularmovies.model.Review;
-import com.nikogalla.myportfolio.popularmovies.model.Video;
+import com.nikogalla.popularmovies.R;
+import com.nikogalla.popularmovies.data.MoviesContract;
+import com.nikogalla.popularmovies.data.MoviesProvider;
+import com.nikogalla.popularmovies.model.Movie;
+import com.nikogalla.popularmovies.model.Review;
+import com.nikogalla.popularmovies.model.Video;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -37,7 +37,7 @@ import java.util.ArrayList;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-import com.nikogalla.myportfolio.popularmovies.details.FetchVideosTask.*;
+import com.nikogalla.popularmovies.details.FetchVideosTask.*;
 
 import org.w3c.dom.Text;
 

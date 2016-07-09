@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.service;
+package com.nikogalla.popularmovies.service;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -9,7 +9,7 @@ import retrofit2.http.Query;
  * Created by Nicola on 2016-03-10.
  */
 public interface TheMovieDbApiService {
-    final String API_KEY = "";
+    final String API_KEY = "bbd00ed67e3b90fbcd827d9d28949fb1";
     @GET("/3/discover/movie?api_key="+API_KEY)
     Call<ApiResponses.Discover> listMovies(@Query("sort_by") String sortBy);
     @GET("/3/movie/{id}/videos?api_key="+API_KEY)

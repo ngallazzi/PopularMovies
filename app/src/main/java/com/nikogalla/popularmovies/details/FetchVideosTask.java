@@ -1,14 +1,14 @@
-package com.nikogalla.myportfolio.popularmovies.details;
+package com.nikogalla.popularmovies.details;
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.nikogalla.myportfolio.popularmovies.model.Movie;
-import com.nikogalla.myportfolio.popularmovies.model.Video;
-import com.nikogalla.myportfolio.popularmovies.service.ApiResponses;
-import com.nikogalla.myportfolio.popularmovies.service.TheMovieDbApiService;
+import com.nikogalla.popularmovies.model.Movie;
+import com.nikogalla.popularmovies.model.Video;
+import com.nikogalla.popularmovies.service.ApiResponses;
+import com.nikogalla.popularmovies.service.TheMovieDbApiService;
 
 import java.net.HttpURLConnection;
 import java.util.ArrayList;

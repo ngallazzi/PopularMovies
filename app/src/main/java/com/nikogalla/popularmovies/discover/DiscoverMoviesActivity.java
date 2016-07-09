@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.discover;
+package com.nikogalla.popularmovies.discover;
 
 
 import android.content.SharedPreferences;
@@ -15,11 +15,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.nikogalla.myportfolio.R;
-import com.nikogalla.myportfolio.popularmovies.SettingsActivity;
-import com.nikogalla.myportfolio.popularmovies.details.MovieDetailsActivity;
-import com.nikogalla.myportfolio.popularmovies.details.MovieDetailsFragment;
-import com.nikogalla.myportfolio.popularmovies.model.Movie;
+import com.nikogalla.popularmovies.R;
+import com.nikogalla.popularmovies.SettingsActivity;
+import com.nikogalla.popularmovies.details.MovieDetailsActivity;
+import com.nikogalla.popularmovies.details.MovieDetailsFragment;
+import com.nikogalla.popularmovies.model.Movie;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

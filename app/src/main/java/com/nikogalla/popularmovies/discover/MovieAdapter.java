@@ -1,7 +1,6 @@
-package com.nikogalla.myportfolio.popularmovies.discover;
+package com.nikogalla.popularmovies.discover;
 
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.nikogalla.myportfolio.R;
-import com.nikogalla.myportfolio.popularmovies.model.Movie;
+import com.nikogalla.popularmovies.R;
+import com.nikogalla.popularmovies.model.Movie;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

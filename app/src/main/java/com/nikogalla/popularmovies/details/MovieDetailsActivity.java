@@ -1,17 +1,16 @@
-package com.nikogalla.myportfolio.popularmovies.details;
+package com.nikogalla.popularmovies.details;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.nikogalla.myportfolio.R;
-import com.nikogalla.myportfolio.popularmovies.SettingsActivity;
-import com.nikogalla.myportfolio.popularmovies.model.Movie;
+import com.nikogalla.popularmovies.R;
+import com.nikogalla.popularmovies.SettingsActivity;
+import com.nikogalla.popularmovies.model.Movie;
 
 import butterknife.ButterKnife;
 

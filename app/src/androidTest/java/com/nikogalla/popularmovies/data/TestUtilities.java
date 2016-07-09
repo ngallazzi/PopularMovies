@@ -1,4 +1,4 @@
-package com.nikogalla.myportfolio.popularmovies.data;
+package com.nikogalla.popularmovies.data;
 
 import android.content.ContentValues;
 import android.database.ContentObserver;
@@ -8,8 +8,8 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.test.AndroidTestCase;
 
-import com.nikogalla.myportfolio.popularmovies.data.MoviesContract.FavoriteMovieEntry;
-import com.nikogalla.myportfolio.utils.PollingCheck;
+import com.nikogalla.popularmovies.data.MoviesContract.FavoriteMovieEntry;
+import com.nikogalla.utils.PollingCheck;
 
 import java.util.Map;
 import java.util.Set;
